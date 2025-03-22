@@ -1,0 +1,122 @@
+.seller-products-section {
+    max-width: 1200px;
+    padding: 30px 20px;
+  }
+  
+  .seller-products-section .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .seller-products-section .header h2 {
+    font-size: 22px;
+    color: #0d223f;
+  }
+  
+  .seller-products-section .header p {
+    font-size: 14px;
+    color: #888;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .show-all-btn {
+    background-color: #0d223f;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .product-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff;
+    transition: 0.3s;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product-card h3 {
+    font-size: 16px;
+    color: #0d223f;
+    margin: 10px 0 5px;
+  }
+  
+  .rating-badge {
+    color: green;
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  
+  .product-card p {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 12px;
+  }
+  
+  .price-info {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .new-price {
+    color: #0d223f;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .discount {
+    color: #007bff;
+    font-size: 13px;
+  }
+  
+  .product-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .view-product-btn {
+    background-color: #0d223f;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+  

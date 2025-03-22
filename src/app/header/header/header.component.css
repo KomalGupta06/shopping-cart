@@ -1,0 +1,26 @@
+.nav{
+    height: 65px;
+    background-color:rgb(219, 224, 224);
+}
+.location{
+    height: 35px;
+    background-color:#012B49;
+    color:white;
+}
+.search{
+    background-color: #E3F8FF;
+    height: 35px;
+    width: 250px;
+}
+.category{
+    display: flex;
+    padding-left:150px;
+    padding-top:20px;
+    gap:50px;
+}
+.category-item{
+    margin: 2px;
+    border-radius: 20px;
+    background-color: #E3F8FF;
+    align-items: center;
+}
