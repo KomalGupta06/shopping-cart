@@ -1,0 +1,48 @@
+.tabs {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .tab-header {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .tab-header li {
+    padding-bottom: 8px;
+    position: relative;
+  }
+  
+  .tab-header li.active {
+    border-bottom: 2px solid #000;
+    font-weight: bold;
+  }
+  
+  .tab-content section {
+    margin-bottom: 30px;
+  }
+  
+  .tab-content ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .specifications {
+    background-color: #f3fcf5;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  
+  .specifications ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .specifications li {
+    margin-bottom: 8px;
+  }
+  

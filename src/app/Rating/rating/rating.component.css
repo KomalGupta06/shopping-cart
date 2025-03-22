@@ -1,0 +1,87 @@
+.ratings-section {
+    max-width: 900px;
+    padding: 20px;
+  }
+  
+  .ratings-container {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+  }
+  
+  .overall-rating {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 120px;
+  }
+  
+  .rating-number {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .stars {
+    color: gold;
+    font-size: 20px;
+  }
+  
+  .rating-breakdown {
+    flex: 1;
+  }
+  
+  .rating-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar {
+    background-color: #f0f0f0;
+    width: 50%;
+    height: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: gold;
+  }
+  
+  .image-carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .carousel-images {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  .carousel-images img {
+    width: 120px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .carousel-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .view-more {
+    margin-left: auto;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #007bff;
+  }
+  

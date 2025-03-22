@@ -1,0 +1,23 @@
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #6c757d;
+    font-size: 14px;
+    margin-left:40px
+  }
+  
+  .breadcrumb a {
+    text-decoration: none;
+    color: #6c757d;
+  }
+  
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }
+  
+  .current-page {
+    color: #3b5998;
+    font-weight: 600;
+  }
+  
