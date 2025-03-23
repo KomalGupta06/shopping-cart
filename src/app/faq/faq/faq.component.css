@@ -15,6 +15,19 @@
     cursor: pointer;
     font-weight: 500;
   }
-  
+  @media (max-width: 600px) {
+    .faq-section {
+      padding: 15px;
+    }
+    .faq-section h2 {
+      font-size: 1.6rem;
+    }
+    .faq-question span {
+      font-size: 1rem;
+    }
+    .icon {
+      font-size: 1.2rem;
+    }
+  }
 
   

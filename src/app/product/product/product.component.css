@@ -205,4 +205,56 @@ height: 100px;
   .share-container:hover .share-popup {
     display: block;
   }
-  
+  @media (max-width: 992px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col-sm-6, .col-sm-4, .col-sm-2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .product-pricing h2 {
+        font-size: 20px;
+    }
+
+    .product-details h2 {
+        font-size: 24px;
+    }
+
+    .share-popup {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 50px;
+    }
+
+    .catalogue {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+    .product-details p {
+        font-size: 14px;
+    }
+
+    .product-rating {
+        font-size: 12px;
+    }
+
+    .sizes button {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+
+    .add-to-cart, .stock-button, .wishlist {
+        font-size: 14px;
+    }
+
+    .catalogue {
+        width: 60px;
+        height: 60px;
+    }
+}

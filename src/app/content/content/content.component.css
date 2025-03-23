@@ -20,4 +20,22 @@
     color: #3b5998;
     font-weight: 600;
   }
-  
+  @media (max-width: 768px) {
+    .breadcrumb {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .breadcrumb {
+        font-size: 12px;
+        gap: 3px;
+    }
+    .breadcrumb a, .breadcrumb span {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 100px;
+        display: inline-block;
+    }
+}

@@ -60,4 +60,55 @@
     font-size: 20px;
     cursor: pointer;
   }
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .footer-section {
+      flex: 1 1 100%;
+    }
+  
+    .subscribe-box input {
+      width: 70%;
+    }
+  
+    .subscribe-box button {
+      width: 30%;
+    }
+  
+    .app-store-icons img {
+      width: 80px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer {
+      padding: 30px 15px;
+    }
+  
+    .footer-section h3,
+    .footer-section h4 {
+      font-size: 18px;
+    }
+  
+    .footer-section p {
+      font-size: 13px;
+    }
+  
+    .subscribe-box input {
+      width: 65%;
+      font-size: 13px;
+    }
+  
+    .subscribe-box button {
+      width: 35%;
+      font-size: 16px;
+    }
+  
+    .social-icons i {
+      font-size: 16px;
+    }
+  }
   
