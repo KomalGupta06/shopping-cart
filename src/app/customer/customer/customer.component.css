@@ -61,4 +61,49 @@
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
+  @media (max-width: 768px) {
+    .review-header {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .avatar {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .review-images img {
+      width: 70px;
+      height: 70px;
+    }
+  
+    .filter {
+      text-align: left;
+      margin-bottom: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .reviews-section h4 {
+      font-size: 1.4rem;
+    }
+  
+    .review-card {
+      padding: 12px;
+    }
+  
+    .stars {
+      font-size: 1.1rem;
+    }
+  
+    .review-images img {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .load-more {
+      width: 100%;
+    }
+  }
+  
   
